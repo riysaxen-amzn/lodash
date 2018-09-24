@@ -1,3 +1,5 @@
+# THIS IS A TEMPORARY FORK OF LODASH FOR INTERNAL USE IN KIBANA
+
 # lodash v3.10.1
 
 The [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash](https://lodash.com/) exported as [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) modules.
