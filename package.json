@@ -1,6 +1,6 @@
 {
-  "name": "@elastic/lodash",
-  "version": "3.10.1-kibana1",
+  "name": "lodash",
+  "version": "3.10.1-kibana1-test",
   "description": "The modern build of lodash modular utilities.",
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
