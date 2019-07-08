@@ -588,8 +588,8 @@
     return result;
   }
 
-    /**
-   * Gets the value at `key`, unless `key` is "__proto__".
+  /**
+   * Gets the value at `key`, unless `key` is "__proto__" or "constructor".
    *
    * @private
    * @param {Object} object The object to query.
@@ -597,6 +597,10 @@
    * @returns {*} Returns the property value.
    */
   function safeGet(object, key) {
+    if (key === 'constructor' && typeof object[key] === 'function') {
+      return;
+    }
+
     return key == '__proto__'
       ? undefined
       : object[key];
